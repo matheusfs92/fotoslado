@@ -1,23 +1,38 @@
-.minmax {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
+
+img {max-width: 100%;
+
+}
+
+/* img {max-width: 100%; faz cm q a img tenha no maximo 100% ta tela independente da tela*/
   
-  .galeria {
-    grid-template-columns: repeat(auto-fit, 150px);
-  }
+/* para comentar */
+
+.galeria {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+}
+/* display: grid; depende para funcinal o grid-template-columns: 1fr 1fr 1fr */
+.galeria2{
+  display: grid;
+  max-width: 25%
   
-  div {
-    display: grid;
-    gap: 1rem;
-    margin-bottom: 1rem;
-  }
+}
+
+.galeria2{
+  grid-template-columns: auto auto;
+  justify-self: end;
+}
+
+.foto1{justify-self: start end;
+
+}
+
+.galeria3{
+  display: grid;
+  max-width: 500px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   
-  img {
-    max-width: 100%;
-    display: block;
-  }
   
-  p {
-    font-size: 2rem;
-  }
-  
+}
+
