@@ -41,7 +41,7 @@ max-width: 440px
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     display:  flex;
-    transform: translate(170%, 0%)
+    transform: translate(359%, 0%)
     
 }
 
