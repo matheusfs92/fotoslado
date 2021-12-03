@@ -6,8 +6,8 @@ body{
 }
 .container{
   display:grid;
-  grid-template-columns: repeat(3, 4fr); /* vai determinar linha a e coluna */
-  grid-auto-rows:180px 180px;/* vai aumentar o tamanho das img de uma culuna */
+  grid-template-columns: repeat(4, 1fr); /* vai determinar linha a e coluna */
+  grid-auto-rows:280px 280px;/* vai aumentar o tamanho das img de uma culuna */
   grid-gap:1px; /* vai dar um pequeno espeço nas img*/
   grid-auto-flow: dense;
 }
