@@ -6,17 +6,20 @@ body{
 }
 .container{
   display:grid;
-  grid-template-columns: repeat(4, 1fr); /* vai determinar linha a e coluna */
-  grid-auto-rows:280px 280px;/* vai aumentar o tamanho das img de uma culuna */
+  grid-template-columns: repeat(3, 2fr); /* vai determinar linha a e coluna */
+  grid-auto-rows:200px 200px;/* vai aumentar o tamanho das img de uma culuna */
   grid-gap:1px; /* vai dar um pequeno espeço nas img*/
   grid-auto-flow: dense;
 }
 
+
+/* vai deixar as img enquadrada */
 .gallery-item{
   width:100%;
   height:100%;
   position:relative;
 }
+
 
 .gallery-item .image{
   width:100%;
@@ -61,6 +64,9 @@ body{
   width:100%;
 }
 
+.m-3{
+  grid-column: span 2;
+}
 
 /*
 
