@@ -45,11 +45,11 @@ body{
 .gallery-item .text{
   opacity:0;
   position:absolute;
-  top:50%;
+  top:50%;/* vai ficar o texto no meio*/
   left:50%;
-  transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%); /*para o texto ficar enquadrado*/
   color:#fff;
-  font-size:25px;
+  font-size:25px; /* tamnho do texto*/
   pointer-events:none;
   z-index:4;
   transition: .3s ease-in-out;
@@ -68,6 +68,8 @@ body{
   grid-column: span 2;
 }
 
+.t-2{
+  grid-row: span 2;
 /*
 
 .w-2{
