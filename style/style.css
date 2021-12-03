@@ -58,6 +58,7 @@ body{
   backdrop-filter: blur(4px) saturate(1.8);
   */
   /* daria um efeito borado na tela do texto quenado aparecer*/
+  
 }
 
 .gallery-item:hover .text{
